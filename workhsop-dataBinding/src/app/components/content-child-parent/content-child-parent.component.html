@@ -1,0 +1,7 @@
+<app-content-child  *ngIf="this.isFirst" [Input]="'content child 1'"></app-content-child>
+<app-content-child  *ngIf="!this.isFirst" [Input]="'content child 2'"></app-content-child>
+<input type="button" (click)="toggleFirst()" value="change child"/>
+<!--<p> @ContentChild content : {{this.contentChild}}</p>-->
+
+
+

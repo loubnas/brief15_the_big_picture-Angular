@@ -1,0 +1,11 @@
+<p>Exemple Interpolation : </p>
+<h2> {{ hotelName }}</h2>
+<p> Nous avons visité l'hotel : {{ hotelStars }} étoiles </p>
+
+<input type="button" (click)="changeStars()" value="change stars" />
+<p>Maintenant , il existe {{ GetNombreResidents()}} visiteurs </p>
+
+
+<!-- checked : property html :  -->
+<input type="checkbox" checked="{{isChecked}}" disabled/> test Check
+<input type="button" (click)="toggleCheck()" value="toggle checkbox" />

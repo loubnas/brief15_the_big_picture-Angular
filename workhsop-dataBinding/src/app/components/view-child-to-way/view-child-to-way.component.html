@@ -1,0 +1,6 @@
+<p> Exemple for View child "two way binding " :</p>
+
+<app-view-child-child #child></app-view-child-child>
+
+<input [checked]="this.child.isChecked" type="checkbox" (change)="toggleCheck()"/>
+
